@@ -1,15 +1,15 @@
-package com.reuben.springboot.TodoWebApp.hello;
+package com.reuben.springboot.TodoWebApp.welcome;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class SayHelloController {
+public class welcomeController {
 
-    @RequestMapping("/say-hello-jsp")
-    public String sayHelloJsp(){
-        return "sayHello";
+    @RequestMapping("/welcome")
+    public String welcome(){
+        return "welcome";
     }
 
     @RequestMapping("/say-hello")
